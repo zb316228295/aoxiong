@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="item-service-provider" />
+        <module name="item-service-mapper" />
+        <module name="kafka-producer" />
+        <module name="renren-generator" />
+        <module name="Kafka-Stream" />
+        <module name="item-service-web" />
+        <module name="hadoop" />
+        <module name="renren-fast" />
+        <module name="item-service-entity" />
+        <module name="item-service-api" />
+        <module name="kafka-streams-wordcount" />
+        <module name="kafka-connect-jdbc" />
+      </profile>
+    </annotationProcessing>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="item-service-api" options="-parameters" />
+      <module name="item-service-entity" options="-parameters" />
+      <module name="item-service-mapper" options="-parameters" />
+      <module name="item-service-provider" options="-parameters" />
+      <module name="item-service-web" options="-parameters" />
+      <module name="renren-fast" options="-parameters" />
+      <module name="renren-generator" options="-parameters" />
+    </option>
+  </component>
+</project>
